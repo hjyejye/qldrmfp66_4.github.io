@@ -1,0 +1,38 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+  font-family: 'Jeju Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/jejugothic/v3/JejuGothic-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/jejugothic/v3/JejuGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/jejugothic/v3/JejuGothic-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/jejugothic/v3/JejuGothic-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/jejugothic/v3/JejuGothic-Regular.ttf) format('truetype');
+}
+ 
+* {
+    font-family: 'Jeju Gothic', serif;
+ }
+ 
+ .banner{
+     padding-top: 30px;
+     background-size: cover;
+     width: 500px;
+     height: 200px;
+ }
+ 
+ .banner h3{
+    line-height: 1.5em;
+    color: #8ed84e;
+ }
+
+a {
+    font-family: 'Jeju Gothic', serif;
+ }
+ 
+.new_content, .edit_content {
+    color: #8ed84e;
+}
